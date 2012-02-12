@@ -1,0 +1,598 @@
+@charset="utf-8";
+
+body {
+  background-color: #F5F4E2;
+  font: 11px Arial;
+  margin: 0 auto 0 auto;
+  width:980px;
+}
+
+a {
+  text-decoration: none;	
+}
+
+#schoolOptions {
+  height: 37px;
+  line-height: 37px;
+}
+
+header nav li {
+  display: inline;
+}
+
+#schoolOptions a {
+  color: #575757;
+}
+
+#schoolLocations {
+  float: left;
+}
+
+#schoolOptions li {
+  border-right: 1px solid #575757;
+  padding: 0 10px 0 10px;
+}
+
+#schoolOptions li.first {
+  padding-left: 0;
+}
+
+#schoolOptions li.last {
+  border: none;
+  padding-right: 0;
+}
+
+#schoolSearch {
+  float: right;
+}
+
+#schoolSearch li.last a {
+  background: url(../images/quickFind.gif) 90px 0 no-repeat;
+  padding: 4px 25px 6px 0;
+}
+
+#container {
+  background-color: #FFFFFF;
+}
+
+#container header {
+  background-color: #394C6C;
+  height: 114px;
+  margin: 0 0 15px 0;
+}
+
+#logo {
+  height: 84px;
+  width: 980px;
+}
+
+#container header a.logo {
+  background: url(../images/rutgersLogo.gif) 0 0 no-repeat;
+  float: left;
+  height: 84px;
+  text-indent: -9999px;
+  width: 644px;
+}
+
+#search {
+  background-color: #E7C470;
+  float: right;
+  height: 27px;  
+  margin: 57px 0 0 0;
+  width: 209px;
+}
+
+#search div.text {
+  float: left;
+  height: 16px;
+  padding: 5px 0 0 7px;
+}
+
+#search div.text input {
+  border: 1px solid #BBB8AF;
+  padding: 2px 0 2px 6px;
+  text-transform: uppercase;
+  width: 56px;
+}
+
+#search div.submit {
+  float: left;
+  padding: 8px 0 0 8px;
+}
+
+#search div.submit input {
+  background: url(../images/submit.gif) 0 0 no-repeat;
+  border: none;
+  text-indent: -9999px;
+}
+
+#search div.search {
+  margin: 7px 0 0 0;
+}
+
+#search div.search a {
+  background: url(../images/submit.gif) 98px 9px no-repeat;
+  border-left: 1px solid #374C69;
+  color: #FEFEFE;
+  font-size: 12px;
+  height: 18px;
+  padding: 7px 20px 7px 11px;
+}
+
+#container header nav {
+  background-color: #4F6A97;
+  height: 30px;
+  line-height: 30px;
+  width: 980px;
+}
+
+#container header nav li {
+  padding: 11px 0 9px 0;
+}
+
+#container header nav li.first {
+  padding: 0 28px 0 53px;
+}
+
+#container header nav li {
+  font-size: 13px;
+  padding: 0 28px 0 0;
+}
+
+#container header nav a {
+  color: #FEFEFE;
+  padding: 11px 0 9px 0;
+}
+
+#main {
+  height: 284px;
+  margin: 0 40px;
+  width: 900px;
+}
+
+#main aside {
+  background-color: #9BAFD0;
+  float: left;
+  height: 284px;
+  width: 212px;
+}
+
+#main h2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 5px 0 0 17px;
+}
+
+#main aside ul {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#main aside li {
+  padding: 0 20px 0 17px;
+}
+
+#main aside a {
+  background: url(../images/listImage.gif) 0 2px no-repeat;
+  color: #323335;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 0 0 0 12px;
+}
+
+#main aside time {
+  float: left;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 0 30px 17px 12px;
+}
+
+#main aside li.calendar {
+  font-size: 11px;
+  font-weight: normal;
+}
+
+#main aside li.scrollArrow {
+  background: url(../images/scrollArrows.gif) no-repeat;
+  float: right;
+  height: 14px;
+  margin: 3px 0 8px 0;
+  padding: 0 14px 0 0;
+  text-indent: -9999px;
+}
+
+#main section {
+  float: right;
+  width: 686px;
+}
+
+#main section img {
+  float: left;
+  height: 258px;
+}
+
+#main #eventDescription {
+  background-color: #025672;
+  color: #FFFFFF;
+  float: right;
+  font-size: 12px;
+  height: 258px;
+  line-height: 1.5;
+  padding: 0 26px 0 15px;
+  width: 146px;
+}
+
+#main #eventDescription h2 {
+  padding: 0;
+}
+
+#main section nav ul {
+  
+}
+
+#main section nav li {
+  display: inline;
+  float: left;
+  height: 26px;
+  line-height: 26px;
+}
+
+#main section nav a {
+  color: #FEFEFC;
+  font-size: 12px;
+  padding: 0 0 0 14px;
+  text-transform: uppercase;
+}
+
+#main section nav li.music {
+  background-color: #94A00E;
+  width: 167px;
+}
+
+#main section nav li.theatre {
+  background-color: #D36601;
+  width: 166px;
+}
+
+#main section nav li.visual {
+  background-color: #A3111E;
+  width: 166px;
+}
+
+#main section nav li.dance {
+  background-color: #007FAC;
+  width: 187px;
+}
+
+#subAttractions {
+  margin: 0 0 25px 0;
+}
+
+#subAttractions h2 {
+  color: #86858B;
+  font-weight: normal;
+}
+
+#subAttractions aside {
+  float: left;
+  margin: 10px 0 0 19px;
+}
+
+#subAttractions aside li {
+  background: url(../images/storeBackground.gif) 0 0 repeat-x;
+  border: 1px solid #A4A7A0;
+  line-height: 18px;
+  list-style-type: none;
+  margin: 0 0 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 165px;
+}
+
+#subAttractions aside a {
+  color: #3C3D41;
+}
+
+#news {
+  float: left;
+  font-size: 11px;
+  margin: 0 0 0 30px;
+  width: 449px;
+}
+
+#news img {
+  float: left;
+}
+
+#subAttractions h3 {
+  margin: 0 0 -5px 0;
+  padding: 0;
+  
+}
+
+#subAttractions h3 a {
+  color: #066293;
+}
+
+#news article {
+  float: right;
+  margin: 0 0 0 10px;
+  width: 352px;
+}
+
+#news ul {
+  float: left;
+  width: 410px;
+}
+
+#news li {
+  border-top: 1px dotted #75747C;
+  font-size: 12px;
+  margin: 7px 0 0 -40px;
+  list-style-type: none;
+  padding: 7px 0 0 0;
+}
+
+#news li a {
+  color: #4589AC;
+}
+
+#featured {
+  float: right;
+  margin: 0 0 0 25px;
+  width: 210px;
+}
+
+#featured img {
+  margin: 0 0 8px 0;
+}
+
+#container footer {
+  height: 10px;
+  margin: 23px 15px 0 11px;
+}
+
+#container footer p {
+  color: #686868;
+  float: left;
+}
+
+#container footer ul {
+  float: right;
+}
+
+#container footer li {
+  border-right: 1px ridge #A0A0A0;
+  display: inline;
+  list-style-type: none;
+  padding: 0 4px;
+}
+
+#container footer li.last {
+  border-right: none;
+  padding-right: none;
+}
+
+#container footer a {
+  color: #333333;
+}
+
+small {
+  margin: 11px 0 100px 11px;
+}
+
+#linkedPages {
+  margin: -4px 0 28px 0;
+}
+
+#sideBar {
+  float: left;
+  margin: 26px 48px 86px 12px;
+  text-transform: capitalize;
+  width: 208px;
+}
+
+#sideBar h2 {
+  color: #868686;
+  font-size: 14px;	
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+#sideBar ul {
+  margin: 0 0 0 18px;
+}
+
+#sideBar li {
+  border-top: 1px solid #DDDFD1;
+  padding: 6px 0 6px 5px;
+}
+
+#sideBar li a {
+  color: #787878;
+}
+
+#sideBar li.seventh {
+  border-bottom: 1px solid #DDDFD1;
+  margin: 0 0 17px 0;
+}
+
+#sideBar ul.activeTopic {
+  background: url(../images/sqGray.gif) 0 10px no-repeat;
+}
+
+#sideBar ul.activeTopic li {
+  border: none;
+}
+
+#sideBar ul li.active {
+  background: url(../images/sqOrange.gif) 0 10px no-repeat;
+  background-color: #F6F7F2;
+}
+
+#sideBar ul li a.active {
+  color: #B7712B;
+  font-weight: bold;
+}
+
+#sideBar #relatedLinks {
+  border: 1px solid #DEDFD1;
+  margin: 0 0 0 18px;
+}
+
+#sideBar #relatedLinks ul li {
+  background: url(../images/sqOrange.gif) 0 10px no-repeat;
+  border: none;
+  margin-left: -10px;
+  padding-left: 8px;
+}
+
+#sideBar h3 {
+  color: #B6702A;
+  margin: 10px 0 0 8px;
+  text-transform: uppercase;
+}
+
+#linkedPages div.main {
+  float: right;
+  width: 702px;
+}
+
+#linkedPages article p {
+  line-height: 18px;
+  margin: 0 0 0 14px;  
+}
+
+#linkedPages section.firstsection p {
+  font-size: 12px;
+  margin-right: 40px;
+}
+
+#linkedPages div.main h1 {
+  font: 28px "Times New Roman";
+  margin: 14px 0 14px 0;
+
+}
+
+#linkedPages article span {
+  color: #D89851;
+  font-weight: bold;
+}
+
+#linkedPages article a {
+  color: #016E8F;
+}
+
+#linkedPages div.main div.secondlevel {
+  float: left;
+  width: 444px;
+}
+
+#linkedPages article h2 {
+  color: #344869;
+  font: 24px "Times New Roman";
+  font-weight: normal;
+  margin: 16px 0 16px 0;
+}
+
+#linkedPages article h3 {
+  margin: 18px 0 17px 10px;
+  text-transform: uppercase;
+}
+
+#linkedPages article figure {
+  background-color: #F9EAC3;
+  float: right;
+  height: 181px;
+  margin: 24px 0 0 0;
+  width: 232px;
+}
+
+#linkedPages article figure img {
+  padding: 14px 0 0 16px;
+}
+
+#linkedPages article figure figcaption {
+  padding: 14px 0 0 19px;
+}
+
+#linkedPages div.profile {
+  float: right;
+  width: 676px;
+}
+
+#linkedPages div.profile {
+  float: right;
+  font-size: 12px;
+  margin: 24px 36px 30px 0;
+  width: 659px;
+}
+
+#linkedPages #pager a {
+  margin: 0 0 34px 0;
+}
+
+#linkedPages div.profile h1 {
+  float: left;
+  font: 24px "Times New Roman";
+  font-weight: normal;
+  margin: 14px 0 19px 0;
+  text-transform: capitalize;
+}
+
+#linkedPages div.profile img {
+  float: left;
+  height: 278px;
+  margin: 0 18px 0 0;
+  width: 216px;
+}
+
+#linkedPages div.profile #info {
+  margin-left: 16px;
+}
+
+#linkedPages div.profile p {
+  margin: 0 0 6px 0;
+}
+
+#linkedPages div.profile article ul {
+  float: right;
+  list-style: none;
+  margin: 0 226px 13px 0;
+  padding: 0;
+}
+
+#linkedPages div.left ul, #linkedPages div.right ul {
+  list-style: none;
+  padding: 0;
+}
+
+#linkedPages div.left a, #linkedPages div.right a {
+  color: #80A7D0;
+}
+
+#linkedPages div.profile div.left {
+  float: left;
+  margin: 0 43px 0 18px;
+  width: 225px;
+}
+
+#linkedPages div.profile div.right {
+  float: right;
+  margin: 0 0 0 68px;
+  width: 300px;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;	
+}

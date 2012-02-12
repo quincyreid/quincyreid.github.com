@@ -1,0 +1,237 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Rutgers</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+  <header id="schoolOptions">  
+    <nav>
+      <ul id="schoolLocations">
+        <li class="first"><a href="#">Rutgers Home</a></li>
+        <li><a href="#">Camden</a></li>
+        <li><a href="#">Newark</a></li>
+        <li class="last"><a href="#">New Brunswick</a></li>
+      </ul>
+      <ul id="schoolSearch">
+        <li class="first"><a href="#">Universitywide Search</a></li>
+        <li class="last"><a href="#">Show Quickfinder</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div id="container" class="clearfix">
+      <header>
+        <div id="logo">
+          <a href="http://www.rutgers.edu" class="logo">Rutgers University Mason Gross School of the Arts</a>
+          <form id="search" action="#">
+            <div class="text"><input type="text" id="keyword"/></div>
+            <div class="submit"><input type="submit" value="submit"/></div>
+            <div class="search"><a href="#">Information for</a></div>
+          </form>
+        </div>
+        <nav>
+          <ul>
+            <li class="first"><a href="#">About the School</a></li>
+            <li><a href="#">Dance</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Theater Arts</a></li>
+            <li><a href="#">Visual Arts</a></li>
+            <li><a href="#">Online Courses</a></li>
+            <li><a href="#">Extension Division</a></li>
+            <li class="last"><a href="#">Performing Arts Center</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="linkedPages" class="clearfix">      
+        <aside id="sideBar">
+          <h2>section title: verdana reg. 13</h2>
+          <nav>
+            <ul>
+              <li><a href="#">first topic</a></li>
+              <li><a href="#">second topic</a></li>
+              <li><a href="#">third topic</a></li>
+              <li><a href="#">fourth topic</a></li>
+              <li><a href="#">fifth topic</a></li>
+              <li class="active"><a href="#" class="active">active topic</a>
+                <ul class="activeTopic">
+                  <li><a href="#">first 2nd level topic</a></li>
+                  <li class="active"><a href="#" class="active">active 2nd level topic</a>
+                    <ul class="activeTopic">
+                      <li><a href="#">first 3rd level topic</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="seventh"><a href="#">seventh topic</a></li>
+            </ul>
+          </nav>
+          <nav id="relatedLinks">
+            <h3>related</h3>
+            <ul>
+              <li><a href="#">first related link</a></li>
+              <li><a href="#">second related link</a></li>
+              <li><a href="#">third related link</a></li>
+            </ul>
+          </nav>      
+        </aside>
+        <div class="profile">
+          <article>
+            <div id="pager">
+              <a href="#">&laquo; Back</a>
+            </div>
+            <h1>Profile: Dr. Jonathan Smith</h1>
+            <div id="info" class="clearfix">
+              <div class="image">
+                <a href="#"><img src="images/profilePic.gif" alt="Jonathan Smith"></a>
+              </div> 
+              <ul>
+                <li>title</li>
+                <li>faculty</li>
+                <li>Division(s), Department(s), Unit(s)</li>
+                <li>000-000-000</li>
+                <li><a href="http://jonathan.smith@email.com">jonathan.smith@email.com</a></li>
+                <li><a href="http://jonathansmithssite.com">jonathansmithssite.com</a></li>
+              </ul>
+              <div>
+                <p>This is profile text description. Copy is representative and is for position only. This is profile Text description. Copy is representative and is for position only.
+            This is profile text description. Copy is representative and is for position only. This is profile text description. Copy is representative and is for position only.
+            This is profile text description. Copy is representative and is for position only. This is profile text description. Copy is representative and is for position only.</p>
+                <p>This is profile text description. Copy is representative and is for position only. This is profile text description. Copy is representative and is for position only.
+            This is profile text description. Copy is representative and is for position only. This is profile text description. Copy is representative and is for position only.
+            This is profile text description. Copy is representative and is for position only. This is profile text description.</p>
+              </div>
+            </div>
+          </article>
+          <div class="left">
+            <section>
+              <h2>Education</h2>
+              <ul>
+                <li>BA Rutgers University</li>
+                <li>MA &amp; PhD Princeton University</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Courses Taught</h2>
+              <ul>
+                <li>Title of First Course Taught</li>
+                <li>Title of Second Course Taught</li>
+                <li>Title of Third Course Taught</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Subjects</h2>
+              <ul>
+                <li>Title of First Subject</li>
+                <li>Title of Second Subject</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Associated Programs</h2>
+              <ul>
+                <li>Titles of First Associated Program</li>
+                <li>Titles of Second Associated Program</li>
+              </ul>
+            </section>
+          </div>
+          <div class="right">
+            <section>
+              <h2>Research Initiatives</h2>
+              <ul>
+                <li><a href="#">First Research Initiative.</a>This is a brief blurb or explanation of the research initiative</li>
+              </ul>
+            </section>
+            <section>
+              <h2>Publications</h2>
+              <ul>
+                <li><a href="#">First Publication.</a>This is a brief blurb or explanation of the publication</li>
+                <li><a href="#">Second Publication.</a>This is a brief blurb or explanation of the publication</li>
+              </ul>
+            </section>
+            <section>
+              <h2>files</h2>
+              <ul>
+                <li><a href="#">First Downloadable File (PDF)</a></li>
+                <li><a href="#">Second Downloadable File (PDF)</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Rutgers Mason Gross School of the Arts</p>
+        <ul>
+          <li class="first"><a href="#">Site Map</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Questions/Comments</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Make a Gift</a></li>
+          <li class="last"><a href="#">Apply</a></li>
+        </ul>
+      </footer>
+    </div> <!--! end of #container -->
+    <footer>
+      <small>Copyright &copy; 2009, Rutgers, The State University of New Jersey</small>
+    </footer>
+
+          <!-- JavaScript at the bottom for fast page loading -->
+
+          <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+        <!-- scripts concatenated and minified via ant build script-->
+        <script defer src="js/plugins.js"></script>
+        <script defer src="js/script.js"></script>
+        <!-- end scripts-->
+
+
+        <!-- Change UA-XXXXX-X to be your site's ID -->
+        <script>
+          window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+          Modernizr.load({
+            load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+          });
+        </script>
+
+
+        <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+             chromium.org/developers/how-tos/chrome-frame-getting-started -->
+        <!--[if lt IE 7 ]>
+          <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+          <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+
+  </body>
+</html> 
