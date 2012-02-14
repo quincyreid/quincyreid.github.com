@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+body {
+  background: url(../images/siteNavigationBackground.gif) 0 54px repeat-x;
+  font:	12px Arial;
+  margin: 0 auto 0 auto;
+  
+}
+
+a {
+  text-decoration: none;	
+}
+
+#container {
+  width: 980px;	
+}
+
+header a.logo {
+  background: url(../images/moreoverLogo.gif) 0 0 no-repeat;	
+  float: left;
+  height: 14px;
+  margin: 18px 0 0 18px;
+  text-indent: -9999px;
+  width: 162px;	
+}
+
+#login {
+  float: right;	
+  font-size: 10px;
+  margin: 22px 25px 20px 0;
+}
+
+#login li {
+  border-right: 2px ridge #999999;
+  display: inline;
+  padding: 0 7px 0 8px;
+}
+
+#login a {
+  color: #3F3F3F;
+}
+
+#login li.first a {
+  color: #F68501;
+  padding: 0 0 0 4px;
+}
+
+header nav {
+  float: left;
+  line-height: 32px;
+  margin: 0 0 0 207px;
+}
+
+header nav li {
+  display: inline;
+  padding: 0 15px 0 15px;
+}
+
+header nav a {
+  color: #FFFFFF;
+}
+
+header nav li.last {
+  background: url(../images/personalize.gif) 15px 8px no-repeat;
+  border-left: 2px ridge #383838;
+  margin: 0 0 0 42px;
+  padding: 10px 0 8px 36px;
+}
+
+aside {
+  float: left;
+  margin: 18px 0 0 0;
+  width: 200px;
+}
