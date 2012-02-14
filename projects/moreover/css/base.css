@@ -150,7 +150,7 @@ aside li.surfing a {
 
 #content {
   float: right;
-  margin: 18px 0 0 10px;
+  margin: 18px 0 300px 10px;
   width: 770px;
 }
 
@@ -223,6 +223,145 @@ nav div.tab a {
   padding: 0;
   text-indent: -9999px;
   width: 115px;
+}
+
+#content h3 {
+  background: url(../images/imageSprite2.gif) 0 1px no-repeat;
+  float: left;
+  margin: 8px 0 0 9px;
+  padding: 0 0 0 19px;
+}
+
+#blog {
+  float: left;
+  text-align: left;
+  width: 372px;
+}
+
+#blog header, #feeds header {
+  background: url(../images/blogFeedsHeader.gif) no-repeat;
+  border-bottom: 2px ridge #DBDAD6;
+  height: 28px;
+}
+
+#graph {
+ border: 1px solid #E1E1E1;
+ border-top: none;
+ height: 260px;
+ margin: 0 0 20px 0;
+}
+
+#graph div.graph {
+  margin: 15px 0 0 0;
+}
+
+#graph span {
+  margin: 0 0 0 38px;
+  float: left;
+  padding: 3px 0 0 0;
+}
+
+#graph ul {
+  background: url(../images/graphTimeline.gif) 0 0 no-repeat;
+  height: 23px;
+  margin: 0 24px 0 120px;
+  width: 228px;
+}
+
+#graph li {
+  background-color: #F8F8F8;
+  border-right: 1px solid #DCDCDC;
+  border-top: 1px solid #DCDCDC;
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 2px 14px 4px 14px;
+}
+
+#graph li.first {
+  margin-left: -25px;
+  padding-left: 0;	
+}
+
+#graph li.last {
+  border-right: none;
+  padding-right: 0;	
+}
+
+#graph li a {
+  color: #666666;
+  font-size: 11px;
+}
+
+#feeds {
+  float: right;
+  text-align: left;
+  width: 372px;
+}
+
+#content header li {
+  border-left: 2px ridge #EEEEEE;
+  float: right;
+  padding: 7px 10px 7px 10px;
+}
+
+#content header li a {
+  display: block;
+  text-indent: -9999px;
+  width: 14px;
+}
+
+#content header li.close a {
+  background: url(../images/imageSprite2.gif) 0 -81px no-repeat;	
+}
+
+#content header  li.rows a {
+  background: url(../images/imageSprite2.gif) 0 -65px no-repeat;	
+}
+
+#content header  li.chart a {
+  background: url(../images/imageSprite2.gif) 0 -49px no-repeat;	
+}
+
+#content header li.globe a {
+  background: url(../images/imageSprite2.gif) 0 -33px no-repeat;	
+}
+
+#map {
+  margin: 0 0 17px 0;
+}
+
+#content ul.headlines li {
+  border-bottom: 1px solid #E1E1E1;	
+  border-left: 1px solid #E1E1E1;
+  border-right: 1px solid #E1E1E1;
+  color: #333333;
+  display: block;
+  font-size: 11.5px;
+  height: 39px;	
+  padding: 12px 0 0 12px; 
+}
+
+#content ul.headlines a {
+  color: #676767;
+  display: block;
+  float: left;
+  font-size: 11px;
+  padding: 2px 0 0 0;
+  width: ; 	
+}
+
+#content ul.headlines span.feedTime {
+  background: #F3F2ED;
+  border-left: 1px solid #CDCDCD;
+  border-top: 1px solid #CDCDCD;	
+  float: right;
+  font-size: 10px;
+  height: 18px;
+  margin: 1px 0 0 0;
+  padding: 5px 11px 0 0;
+  text-align: right;
+  width: 75px;
 }
 
 .clearfix:after {
