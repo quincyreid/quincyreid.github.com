@@ -16,6 +16,7 @@ li {
 }
 
 #container {
+  margin: 0 0 0 76px;
   width: 980px;	
 }
 
@@ -81,16 +82,17 @@ aside a.addTab {
   background: url(../images/addTab.gif) 0 0 no-repeat;
   display: block;
   height: 31px;
+  margin: 0 0 7px 0;
   text-indent: -9999px;
 }
 
 h2 {
   background: url(../images/headingBackground.gif) 0 0 repeat-x;
   color: #000000;
-  display: block;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: normal;
   height: 33px;
-  line-height: 33px;
+  margin-bottom: 0;
   padding: 0 0 0 15px;
 }
 
@@ -101,18 +103,18 @@ h2 span {
 
 aside section {
   border: 1px solid #CDCDCD;
+  margin: 0 0 9px 0;
   text-align: left;
 }
 
 aside section ul {
-  margin: 7px 0 9px 0;
+  margin: 0;
 }
 
 aside section li {
   background: url(../images/folderBackground.gif) 0 0 repeat-x;
   border-top: 1px solid #E1E1E1;
-  display: block;
-  font-size: 11px;
+  font-size: 12px;
   height: 28px;
   line-height: 28px;
 }
@@ -161,7 +163,7 @@ aside li.surfing a {
 #content nav {
   background: url(../images/topNavigation.gif) 0 31px no-repeat;
   height: 113px;
-  margin: 0 0 14px 0;
+  margin: 0 0 8px 0;
 }
 
 #content nav ul {
@@ -180,7 +182,7 @@ aside li.surfing a {
   border: none;
 }
 
-#content nav  li a {
+#content nav li a {
   background: url(../images/plus.gif) 5px 2px no-repeat;
   color: #000000;
   padding: 0 4px 0 19px;
@@ -232,7 +234,7 @@ nav div.tab a {
 #content h3 {
   background: url(../images/imageSprite2.gif) 0 1px no-repeat;
   float: left;
-  margin: 8px 0 0 9px;
+  margin: 6px 0 0 9px;
   padding: 0 0 0 19px;
 }
 
@@ -253,6 +255,10 @@ nav div.tab a {
  border-top: none;
  height: 260px;
  margin: 0 0 20px 0;
+}
+
+#graph img {
+  padding: 12px 0 0 11px;
 }
 
 #graph div.graph {
