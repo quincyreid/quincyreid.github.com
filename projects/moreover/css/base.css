@@ -11,6 +11,10 @@ a {
   text-decoration: none;	
 }
 
+li {
+  list-style-type: none;
+}
+
 #container {
   width: 980px;	
 }
@@ -264,7 +268,7 @@ nav div.tab a {
 #graph ul {
   background: url(../images/graphTimeline.gif) 0 0 no-repeat;
   height: 23px;
-  margin: 0 24px 0 120px;
+  margin: 0 24px 0 126px;
   width: 228px;
 }
 
@@ -279,8 +283,7 @@ nav div.tab a {
 }
 
 #graph li.first {
-  margin-left: -25px;
-  padding-left: 0;	
+  margin: 0 0 0 6px;
 }
 
 #graph li.last {
@@ -315,11 +318,11 @@ nav div.tab a {
   background: url(../images/imageSprite2.gif) 0 -81px no-repeat;	
 }
 
-#content header  li.rows a {
+#content header li.rows a {
   background: url(../images/imageSprite2.gif) 0 -65px no-repeat;	
 }
 
-#content header  li.chart a {
+#content header li.chart a {
   background: url(../images/imageSprite2.gif) 0 -49px no-repeat;	
 }
 
@@ -331,6 +334,10 @@ nav div.tab a {
   margin: 0 0 17px 0;
 }
 
+#content ul.headlines {
+  margin: 0;
+}
+
 #content ul.headlines li {
   border-bottom: 1px solid #E1E1E1;	
   border-left: 1px solid #E1E1E1;
@@ -339,7 +346,8 @@ nav div.tab a {
   display: block;
   font-size: 11.5px;
   height: 39px;	
-  padding: 12px 0 0 12px; 
+  
+  padding: 12px 0 0 10px; 
 }
 
 #content ul.headlines a {
@@ -348,10 +356,10 @@ nav div.tab a {
   float: left;
   font-size: 11px;
   padding: 2px 0 0 0;
-  width: ; 	
+  width: 83px;
 }
 
-#content ul.headlines span.feedTime {
+#content ul.headlines span {
   background: #F3F2ED;
   border-left: 1px solid #CDCDCD;
   border-top: 1px solid #CDCDCD;	
