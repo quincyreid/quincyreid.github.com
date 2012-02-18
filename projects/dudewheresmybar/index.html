@@ -12,7 +12,7 @@
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>My Git Homepage</title>
+  <title>Dude Where's My Bar</title>
   <meta name="description" content="">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
@@ -21,6 +21,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -33,26 +34,34 @@
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
-  
-  </header>
-  <div role="main">
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="http://quincyreid.github.com/projects/rutgers/index.html">Rutger's Homepage</a>
-        <ul>
-          <li><a href="http://quincyreid.github.com/projects/rutgers/landing.html">Rutger's Landing Page</a></li>
-          <li><a href="http://quincyreid.github.com/projects/rutgers/profile.html">Rutger's Profile Page</a></li>
+  <div id="container" class="clearfix">
+    <header>
+      <a href="http://www.dudewheresmybar.com" id="logo">Dude! Where's My Bar?</a>
+      <nav>
+        <ul id="siteMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" class="active">Members</a></li>
+          <li><a href="#">Venues</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Pregame</a></li>
         </ul>
-      </li>
-      <li><a href="http://quincyreid.github.com/projects/moreover/index.html">Moreover</a></li>
-      <li><a href="http://quincyreid.github.com/projects/dudewheresmybar/index.html">Dude Where's My Bar</a></li>
-    </ul>
-  </div>
-  <footer>
-    <small>Copyright &copy; 2012, quincyreid</small>
-  </footer>
+        <ul id="login">
+          <li class="first"><a href="#">login</a></li>
+          <li><a href="#">Sign up!</a></li>
+        </ul>  
+      </nav>
+      <form id="search" action="#">
+        <div class="submit"><input type="submit" value="submit"/></div>
+        <div class="text"><input type="text" id="keyword"/></div>
+      </form>
+    </header>
+    <div role="main">
 
+    </div>
+    <footer>
+
+    </footer>
+  </div>
 
   <!-- JavaScript at the bottom for fast page loading -->
 
