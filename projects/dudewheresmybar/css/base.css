@@ -13,6 +13,11 @@ a {
   text-decoration: none;
 }
 
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 #container {
   width: 980px;
 }
@@ -108,11 +113,189 @@ div.submit input {
   padding: 0 0 0 255px;
 }
 
+#pageTitle span {
+  color: #29AAE3;
+  padding: 0 9px 0 0;
+}
 
+#main a {
+  color: #F04927;
+}
 
+#main h2 {
+  background: #37322E;
+  color: #F5F2ED;
+  font-size: 11px;
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0 9px 0 9px;
+}
 
+#main h2 span {
+  float: right;
+  font-weight: normal;
+}
 
+#main h2 span a {
+  color: #29AAE1;
+  padding: 0 3px 0 3px;
+}
 
+#main .backgroundChange {
+  background: #E3D8D2;
+}
+
+#leftSideBar {
+  float: left;
+  padding: 0 10px 0 0;
+  width: 235px;
+}
+
+#venues {
+  height: 164px;
+  margin: 0 0 21px 0;
+}
+
+#venues ol {
+  margin: 10px 0 19px 26px;
+}
+
+#plans li {
+  padding: 12px 0 10px 10px;
+}
+
+#plans li.backgroundChange {
+  background: #E2D9D4; 	
+}
+
+#content {
+  border-left: 1px solid #857D7A;
+  border-right: 1px solid #857D7A;
+  float: left;
+  padding: 0 10px 0 9px;
+  width: 469px;	
+}
+
+#info {
+  height: 164px;
+  margin: 0 0 21px 0;
+}
+
+div.memberPic {
+  float: left;
+  margin: 0 10px 0 0;	
+}
+
+div.memberProfile {
+  float: left;	
+}
+
+div.memberContacts {
+  float: right;	
+}
+
+div.memberContacts li {
+  display: inline;	
+}
+
+#memberBio {
+  padding: 54px 0 0 0;
+}
+
+#memberBio p.bioTitle {
+  font-weight: bold;
+  margin: 0 0 3px 0;
+}
+
+#gallery {
+  background: #E2D9D4;
+}
+
+#gallery ul {
+  height: 295px;
+  margin: 0 0 0 -4px;
+  padding: 10px;
+  width: 450px;
+}
+
+#gallery li {
+  display: block;
+  float: left;
+  height: 109px;
+  margin: 10px 3px 0 4px;
+  text-align: center;
+  width: 104px;
+}
+
+#buddies {
+  background: #E2D9D4;
+  height: 204px;
+  margin: 0 0 20px 0;
+}
+
+#buddies ul.backgroundChange {
+  padding: 10px 0 40px 10px;
+  width: 450px;
+}
+
+#buddies figure {
+  float: left;
+  padding: 10px 10px 0 0;
+  text-align: center;
+  width: 82px;
+}
+
+#notes {
+  margin: 0 0 140px 0;
+}
+
+#notes a.add {
+  border-left: 2px ridge #DBD8D3;
+}
+
+#notes div.buddyPhoto {
+  float: left;
+  height: 48px;
+  padding: 10px 4px 0 10px;
+  width: 48px;
+}
+
+#notes div.buddyInfo {
+  padding: 10px 0 33px 4px;
+}
+
+#notes div.backgroundChange {
+  background: #E2D9D4;
+}
+
+#notes div.buddyNoteA {
+  padding: 0 0 20px 10px;
+}
+
+#notes div.buddyNoteB {
+  padding: 0 0 25px 10px;
+}
+
+#notes div.buddyNoteC {
+  padding: 0 0 18px 10px;
+}
+
+#rightSideBar {
+  float: right;
+  padding: 0 0 0 0;
+  width: 235px;
+}
+
+#rightSideBar ul.attributes {
+  list-style-type: none;
+  padding: 10px 0 0 10px;  	
+}
+
+#rightSideBar span {
+  font-weight: bold;
+  padding: 0 6px 0 0;
+}
 
 .clearfix:after {
   content: ".";
