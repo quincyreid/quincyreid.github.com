@@ -19,6 +19,7 @@ ol {
 }
 
 #container {
+  margin: 0 0 0 31px;
   width: 980px;
 }
 
@@ -173,7 +174,7 @@ div.submit input {
   border-left: 1px solid #857D7A;
   border-right: 1px solid #857D7A;
   float: left;
-  padding: 0 10px 0 9px;
+  padding: 5px 10px 122px 9px;
   width: 469px;	
 }
 
@@ -184,15 +185,18 @@ div.submit input {
 
 div.memberPic {
   float: left;
-  margin: 0 10px 0 0;	
+  margin: 0 10px 0 0;
+  padding: 0;	
 }
 
 div.memberProfile {
   float: left;	
+  margin: -12px 0 0 0;
 }
 
 div.memberContacts {
   float: right;	
+  margin: -12px 0 0 0;
 }
 
 div.memberContacts li {
@@ -200,21 +204,22 @@ div.memberContacts li {
 }
 
 #memberBio {
-  padding: 54px 0 0 0;
+  padding: 50px 0 0 0;
 }
 
 #memberBio p.bioTitle {
   font-weight: bold;
-  margin: 0 0 3px 0;
+  margin: 3px 0 -4px 0;
 }
 
 #gallery {
   background: #E2D9D4;
+  margin: 0 0 20px 0;
 }
 
 #gallery ul {
   height: 295px;
-  margin: 0 0 0 -4px;
+  margin: 0;
   padding: 10px;
   width: 450px;
 }
@@ -234,16 +239,20 @@ div.memberContacts li {
   margin: 0 0 20px 0;
 }
 
-#buddies ul.backgroundChange {
+#buddies div.backgroundChange {
   padding: 10px 0 40px 10px;
   width: 450px;
 }
 
 #buddies figure {
   float: left;
-  padding: 10px 10px 0 0;
+  padding: 0 10px 0 0;
   text-align: center;
   width: 82px;
+}
+
+#buddies figure.last {
+  padding: 0;
 }
 
 #notes {
@@ -252,6 +261,10 @@ div.memberContacts li {
 
 #notes a.add {
   border-left: 2px ridge #DBD8D3;
+}
+
+#notes p {
+  margin: 0;
 }
 
 #notes div.buddyPhoto {
@@ -296,6 +309,33 @@ div.memberContacts li {
   font-weight: bold;
   padding: 0 6px 0 0;
 }
+
+footer {
+  border-top: 5px solid #37322E;
+  float: left;
+  line-height: 26px;
+  margin: 18px 0 100px 0;
+  width: 962px;
+}
+
+footer nav ul {
+  float: left;
+  margin: 0 0 0 254px;
+}
+
+small {
+  float: right;
+}
+
+footer li{
+  display: inline;
+  padding: 0 16px 0 0;
+}
+
+footer li a {
+  color: #F04823;
+}
+
 
 .clearfix:after {
   content: ".";
