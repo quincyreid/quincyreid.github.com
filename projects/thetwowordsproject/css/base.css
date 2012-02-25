@@ -1,12 +1,38 @@
 @charset "utf-8";
 
+body {
+  background: #47C5FF;
+  font: 11px Arial;
+}
 
+#main {
+  margin: 0 0 200px 0;
+  padding: 55px 0 0 20px;
+}
 
+#leftSideBar {
+  float: left;
+  padding: 5px 0 0 0;
+  text-transform: uppercase;
+  width: 322px;
+}
 
+#leftSideBar a {
+  background: url(../images/theTwoWordsProject.gif) 0 0 no-repeat;
+  display: block;
+  height: 145px;
+  text-indent: -9999px;
+}
 
+#leftSideBar p {
+  color: #FFFDFE;
+  padding: 18px 0 31px 19px;
+}
 
-
-
+#siteInfo p {
+  color: #010002;
+  padding: 0 96px 0 19px;
+}
 
 
 .clearfix:after {
