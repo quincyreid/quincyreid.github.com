@@ -34,6 +34,43 @@ body {
   padding: 0 96px 0 19px;
 }
 
+article {
+  float: left;
+  padding: 13px 0 0 0;
+  width: 362px;
+}
+
+article h2 {
+  color: #CC0033;
+  padding: 8px 0 11px 0;
+  text-transform: uppercase;
+}
+
+#artistInfo {
+  background: #FFFFFF;
+  margin: 20px 0 0 0;
+  padding: 19px 20px 47px 8px;
+}
+
+div.artistInfo {
+  color: #CA0032;
+  padding: 0 0 18px 0;
+  text-transform: uppercase;
+}
+
+div.artistBio {
+  padding: 0 0 16px 0;
+}
+
+ul.artistLinks {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.artistLinks a {
+  color: #CF0033;
+  text-decoration: none;
+}
 
 .clearfix:after {
   content: ".";
